@@ -6,7 +6,6 @@ public class Index
 {
   public static void Main (string[] args)
   {
-    Index index1 = new Index();
     String again="";
     do
     {
