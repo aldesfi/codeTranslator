@@ -1,5 +1,7 @@
 using System;
 
+namespace codeTranslator
+{
 public class DbAldes
 {
     string[] lines1;
@@ -12,7 +14,7 @@ public class DbAldes
     {
         try
         {
-            String databaseName = operandDatabaseName+".dbaldes";
+            String databaseName = "AldesDB/"+operandDatabaseName+".dbaldes";
             lines1 = System.IO.File.ReadAllLines(databaseName);
         }
         catch(Exception e)
@@ -118,4 +120,5 @@ public class DbAldes
     
     }
 
+}
 }

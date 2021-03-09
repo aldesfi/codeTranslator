@@ -1,5 +1,6 @@
 using System;
-
+namespace codeTranslator
+{
 public class RecordTypeForKamus
 {
     String pseudo1;
@@ -29,4 +30,5 @@ public class RecordTypeForKamus
     {
         this.html1 = operandHtml;
     }
+}
 }

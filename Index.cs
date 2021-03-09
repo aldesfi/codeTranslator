@@ -1,5 +1,7 @@
 using System;
 
+namespace codeTranslator
+{
 public class Index
 {
   public static void Main (string[] args)
@@ -22,4 +24,5 @@ public class Index
         Console.WriteLine (hasil1);
        
   }
+}
 }

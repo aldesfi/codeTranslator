@@ -5,3 +5,6 @@
    .dbaldes
   }
   
+  compile
+
+  csc Aldesdb/DbAldes.cs RecordTypeForKamus.cs Index.cs
