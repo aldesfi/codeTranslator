@@ -1,0 +1,7 @@
+hypertext=html
+content=body
+metadata=header
+bottom-content=footer
+top-content=head
+graphical-operation=style
+javaScript-operation=script
