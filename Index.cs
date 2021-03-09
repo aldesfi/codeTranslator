@@ -22,6 +22,8 @@ public class Index
         string symbol1 = Console.ReadLine();
         string hasil1  = dbAldes.terjemahkan(symbol1); 
         Console.WriteLine (hasil1);
+
+        Console.ReadKey();
        
   }
 }
