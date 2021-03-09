@@ -1,14 +1,18 @@
 # codeTranslator
-# symbol-translator
-  ## Bahasa Pemograman C#
-  ## Database AldesDB
-  {
-    .dbaldes
-  }
+## symbol-translator
+  ## Bahasa Pemograman 
+      {
+        C#
+      }
+  ## Database 
+  **AldesDB**
+## extension 
+        .dbaldes
   
   ## Compile-Link-Operation
-  **csc Aldesdb/DbAldes.cs RecordTypeForKamus.cs Index.cs**
+      csc Aldesdb/DbAldes.cs RecordTypeForKamus.cs Index.cs
  
-  ## Function
-    ### 1. bacaDatabase();
-    ### 2. insilisasiDatabase(OperandNamaDatabase);
+  ## Operasi/Function
+     1. bacaDatabase();  
+     3. insilisasiDatabase(OperandNamaDatabase);
+     4. 
