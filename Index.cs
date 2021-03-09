@@ -7,13 +7,14 @@ public class Index
   public static void Main (string[] args)
   {
     Index index1 = new Index();
-
+    String again="";
     do
     {
-    Console.WriteLine("Ulang? Ketik \"y\".");
-    again = Console.ReadLine();
-    if (again != "y")
-    index1.bacaDatabase();
+    Console.Clear();
+    Index index1 = new Index(); 
+    index1.bacaDatabase();        
+    Console.WriteLine("Ulangi ? \"y/n\".");
+    again = Console.ReadLine();    
     }
     while (again == "y") ;
    
@@ -31,9 +32,6 @@ public class Index
         string symbol1 = Console.ReadLine();
         string hasil1  = dbAldes.terjemahkan(symbol1); 
         Console.WriteLine (hasil1);
-
-        Console.ReadKey();
-       
   }
 }
 }
