@@ -7,7 +7,16 @@ public class Index
   public static void Main (string[] args)
   {
     Index index1 = new Index();
+
+    do
+    {
+    Console.WriteLine("Ulang? Ketik \"y\".");
+    again = Console.ReadLine();
+    if (again != "y")
     index1.bacaDatabase();
+    }
+    while (again == "y") ;
+   
   }
 
   private void bacaDatabase()
