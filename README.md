@@ -6,6 +6,7 @@
     AldesDB
 ## extension 
     .dbaldes
+    .aldes
   
 ## Compile-Link-Operation
       csc Aldesdb/DbAldes.cs RecordTypeForKamus.cs Index.cs
