@@ -9,7 +9,8 @@
     .aldes
   
 ## Compile-Link-Operation
-      csc Aldesdb/DbAldes.cs RecordTypeForKamus.cs Index.cs
+     osx : csc Aldesdb/DbAldes.cs RecordTypeForKamus.cs Index.cs
+     windows : csc Aldesdb\DbAldes.cs RecordTypeForKamus.cs Index.cs
  
 ## Operasi/Function
 ### Index
