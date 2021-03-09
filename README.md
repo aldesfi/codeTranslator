@@ -5,7 +5,7 @@
     .dbaldes
   }
   
-  Compile Link Operation
+  Compile-Link-Operation
   = csc Aldesdb/DbAldes.cs RecordTypeForKamus.cs Index.cs
  
   Function
