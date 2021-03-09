@@ -2,9 +2,12 @@
   Bahasa Pemograman C#
   Database AldesDB
   {
-   .dbaldes
+    .dbaldes
   }
   
-  compile
-
-  csc Aldesdb/DbAldes.cs RecordTypeForKamus.cs Index.cs
+  Compile Link Operation
+  = csc Aldesdb/DbAldes.cs RecordTypeForKamus.cs Index.cs
+ 
+  Function
+    1. bacaDatabase();
+    2. insilisasiDatabase(OperandNamaDatabase);
